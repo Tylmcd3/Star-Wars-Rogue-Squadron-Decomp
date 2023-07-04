@@ -1,0 +1,159 @@
+name: Rogue Squadron (North America)
+sha1: ed42eed1ee2db646ff7ef94ba8c5421d164a4f0d
+options:
+  basename: roguesquadron
+  target_path: roguesquadron.us.z64
+  base_path: .
+  compiler: GCC
+  find_file_boundaries: True
+  header_encoding: ASCII
+  platform: n64
+  # undefined_funcs_auto: True
+  undefined_funcs_auto_path: undefined_funcs_auto.txt
+  # undefined_syms_auto: True
+  undefined_syms_auto_path: undefined_syms_auto.txt
+  # symbol_addrs_path: symbol_addrs.txt
+  # asm_path: asm
+  # src_path: src
+  # build_path: build
+  # extensions_path: tools/splat_ext
+  # mips_abi_float_regs: o32
+  # section_order: [".text", ".data", ".rodata", ".bss"]
+  # auto_all_sections: [".data", ".rodata", ".bss"]
+  # libultra_symbols: True
+  # hardware_regs: True
+segments:
+  - name: header
+    type: header
+    start: 0x0
+  - name: boot
+    type: bin
+    start: 0x40
+  - name: main
+    type: code
+    start: 0x1000
+    vram: 0x80000400
+    subsegments:
+      - [0x1000, 'asm', entry]
+  - name: files1
+    type: bin
+    start: 0x1040
+  - name: funcBlock1
+    type: code
+    start: 0x1720
+    vram: 0x80000b20
+    subsegments:
+      - [0x1720,  'asm', CodeFile_1720]
+      - [0x7F78,  'asm', CodeFile_7F78]
+      - [0x19DF0, 'asm', CodeFile_19DF0]
+      - [0x19FD0, 'asm', CodeFile_19FD0]
+      - [0x1A000, 'asm', CodeFile_1A000]
+      - [0x1A0BC, 'asm', CodeFile_1A0BC]
+      - [0x1D0B8, 'asm', CodeFile_1D0B8]
+  - name: files2
+    type: bin
+    start: 0x2560C
+  - name: funcBlock2
+    type: code
+    start: 0x275B0
+    vram: 0x800269B0
+    subsegments:
+      - [0x275B0, 'asm', 'CodeFile_275B0']
+      - [0x27728, 'asm', 'CodeFile_27728']
+      - [0x29D20, 'asm', 'CodeFile_29D20']
+      - [0x29E80, 'asm', 'CodeFile_29E80']
+      - [0x2AB30, 'asm', 'CodeFile_2AB30']
+      - [0x2AC80, 'asm', 'CodeFile_2AC80']
+      - [0x2AD20, 'asm', 'CodeFile_2AD20']
+      - [0x2ADB0, 'asm', 'CodeFile_2ADB0']
+      - [0x2AEA0, 'asm', 'CodeFile_2AEA0']
+      - [0x2B780, 'asm', 'CodeFile_2B780']
+      - [0x2B830, 'asm', 'CodeFile_2B830']
+      - [0x2BB34, 'asm', 'CodeFile_2BB34']
+      - [0x2BC1C, 'asm', '__osEnqueueAndYield']
+      - [0x2BD90, 'asm', 'CodeFile_2BD90']
+      - [0x2BF00, 'asm', 'CodeFile_2BF00']
+      - [0x2BF30, 'asm', 'CodeFile_2BF30']
+      - [0x2C080, 'asm', 'CodeFile_2C080']
+      - [0x2C190, 'asm', 'CodeFile_2C190']
+      - [0x2C1E0, 'asm', 'CodeFile_2C1E0']
+      - [0x2C1F0, 'asm', 'CodeFile_2C1F0']
+      - [0x2CB00, 'asm', 'CodeFile_2CB00']
+      - [0x2CB90, 'asm', 'CodeFile_2CB90']
+      - [0x2CBA0, 'asm', 'CodeFile_2CBA0']
+      - [0x2CE30, 'asm', 'CodeFile_2CE30']
+      - [0x2CE40, 'asm', 'CodeFile_2CE40']
+      - [0x2CE80, 'asm', 'CodeFile_2CE80']
+      - [0x2CF30, 'asm', 'CodeFile_2CF30']
+      - [0x2CFB0, 'asm', 'CodeFile_2CFB0']
+      - [0x2D980, 'asm', 'CodeFile_2D980']
+      - [0x2DBB0, 'asm', 'CodeFile_2DBB0']
+      - [0x2DFD0, 'asm', 'CodeFile_2DFD0']
+      - [0x2E770, 'asm', 'CodeFile_2E770']
+      - [0x2EAD0, 'asm', 'CodeFile_2EAD0']
+      - [0x2EE30, 'asm', 'CodeFile_2EE30']
+      - [0x2F070, 'asm', 'CodeFile_2F070']
+      - [0x2F280, 'asm', 'CodeFile_2F280']
+      - [0x2F550, 'asm', 'CodeFile_2F550']
+      - [0x2F7E0, 'asm', 'CodeFile_2F7E0']
+      - [0x2FF90, 'asm', 'CodeFile_2FF90']
+      - [0x30CF0, 'asm', 'CodeFile_30CF0']
+      - [0x31310, 'asm', 'CodeFile_31310']
+      - [0x31460, 'asm', 'CodeFile_31460']
+      - [0x31940, 'asm', 'CodeFile_31940']
+      - [0x32C00, 'asm', 'CodeFile_32C00']
+      - [0x32E60, 'asm', 'CodeFile_32E60']
+      - [0x33020, 'asm', 'CodeFile_33020']
+      - [0x33130, 'asm', 'CodeFile_33130']
+      - [0x33160, 'asm', 'CodeFile_33160']
+      - [0x332F0, 'asm', 'CodeFile_332F0']
+      - [0x333F0, 'asm', 'CodeFile_333F0']
+      - [0x33A20, 'asm', 'CodeFile_33A20']
+      - [0x33BD0, 'asm', 'CodeFile_33BD0']
+      - [0x33DD0, 'asm', 'CodeFile_33DD0']
+      - [0x33F10, 'asm', 'CodeFile_33F10']
+      - [0x33F70, 'asm', 'CodeFile_33F70']
+      - [0x34010, 'asm', 'CodeFile_34010']
+      - [0x34160, 'asm', 'CodeFile_34160']
+      - [0x341D0, 'asm', 'CodeFile_341D0']
+      - [0x34230, 'asm', 'CodeFile_34230']
+      - [0x344A0, 'asm', 'CodeFile_344A0']
+      - [0x347D0, 'asm', 'CodeFile_347D0']
+      - [0x34800, 'asm', 'CodeFile_34800']
+      - [0x348A0, 'asm', 'CodeFile_348A0']
+      - [0x34920, 'asm', 'CodeFile_34920']
+      - [0x34C10, 'asm', 'CodeFile_34C10']
+      - [0x34F20, 'asm', 'CodeFile_34F20']
+      - [0x34F50, 'asm', 'CodeFile_34F50']
+      - [0x34FE0, 'asm', 'CodeFile_34FE0']
+      - [0x35020, 'asm', 'CodeFile_35020']
+      - [0x35030, 'asm', 'CodeFile_35030']
+      - [0x350E0, 'asm', 'CodeFile_350E0']
+      - [0x35390, 'asm', 'CodeFile_35390']
+      - [0x357E0, 'asm', 'CodeFile_357E0']
+      - [0x35990, 'asm', 'CodeFile_35990']
+      - [0x359B0, 'asm', 'CodeFile_359B0']
+      - [0x35D10, 'asm', 'CodeFile_35D10']
+      - [0x35D20, 'asm', 'CodeFile_35D20']
+      - [0x35DA0, 'asm', 'CodeFile_35DA0']
+      - [0x35E60, 'asm', 'CodeFile_35E60']
+      - [0x35ED0, 'asm', 'CodeFile_35ED0']
+      - [0x35F40, 'asm', 'CodeFile_35F40']
+      - [0x36100, 'asm', 'CodeFile_36100']
+      - [0x364B0, 'asm', 'CodeFile_364B0']
+      - [0x36530, 'asm', 'CodeFile_36530']
+      - [0x36560, 'asm', 'CodeFile_36560']
+      - [0x37220, 'asm', 'CodeFile_37220']
+      - [0x37CE0, 'asm', 'CodeFile_37CE0']
+      - [0x37E70, 'asm', 'CodeFile_37E70']
+      - [0x38110, 'asm', 'CodeFile_38110']
+  - name: files3 
+    type: bin
+    start: 0x38160
+  # - name: xwng_glw 
+  #   type: bin
+  #   start: 0x1BA403
+  # - name: files4 
+  #   type: bin
+  #   start: 0x1BB043
+  - [0x1000000]

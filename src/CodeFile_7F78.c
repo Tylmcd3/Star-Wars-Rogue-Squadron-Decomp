@@ -1,0 +1,207 @@
+#include "common.h"
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007378);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000737C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007480);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800074D8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800074E0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007510);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000751C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000761C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007640);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000767C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800076B8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800076F8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800077A8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007810);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800078C0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800078E0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007908);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007910);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000794C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007980);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800079A4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800079F0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007CB8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007CDC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007D74);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007E5C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007F1C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80007FDC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000809C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000815C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80008350);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80008404);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80008550);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80008688);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000898C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80008D20);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80009B48);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80009B58);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A650);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A6BC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A6CC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A85C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A86C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000A8A0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000B654);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000B6F4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000BAFC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000BBB0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000BC00);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000BF60);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000C07C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000C6F0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000C81C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000C93C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000CA68);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000CB88);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000CE94);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000CFD4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000D9D4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000DCFC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000DE70);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000E0BC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000E0E0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000E104);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000E800);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000EF04);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000EF88);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000F3F8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8000F624);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80010014);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8001108C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80011C9C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800120DC);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80012408);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80012FD0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80014DE0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80014FA0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80015548);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80015708);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800159B4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80016C44);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017A90);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017AB0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017AC0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017AD0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017AE0);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017B28);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017B48);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017B58);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017B78);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80017B88);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_8001818C);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018468);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018650);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", D_800186D8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018778);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800187E8);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018818);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018D80);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018ED4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018EF4);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_80018F98);
+
+INCLUDE_ASM(s32, "CodeFile_7F78", func_800191C4);

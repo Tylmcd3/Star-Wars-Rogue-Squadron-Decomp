@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -Cirot -O1 -g -gl -l -vewnhibq -FiC:\Star-wars-Rogue-squadron-3D\rerogue\dat_repack\lib\x86_64-win64 -FuC:\Star-wars-Rogue-squadron-3D\rerogue\rs_units -FuC:\Star-wars-Rogue-squadron-3D\rerogue\dat_repack\ -FUC:\Star-wars-Rogue-squadron-3D\rerogue\dat_repack\lib\x86_64-win64\ -FEC:\Star-wars-Rogue-squadron-3D\rerogue\dat_repack\ -oC:\Star-wars-Rogue-squadron-3D\rerogue\dat_repack\rs_repack.exe rs_repack.lpr"/>
+</CONFIG>

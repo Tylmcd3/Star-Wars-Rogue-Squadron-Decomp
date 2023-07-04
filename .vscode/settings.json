@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.hcl": "opencl",
+        "ultra64.h": "c",
+        "common.h": "c"
+    }
+}

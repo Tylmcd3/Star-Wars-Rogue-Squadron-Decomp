@@ -1,0 +1,25 @@
+#include "common.h"
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002CFB0);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D0B0);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D0DC);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D118);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D154);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D180);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D1BC);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D218);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D248);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D2A8);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D344);
+
+INCLUDE_ASM(s32, "CodeFile_2DBB0", func_8002D370);

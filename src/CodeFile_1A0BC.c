@@ -1,0 +1,71 @@
+#include "common.h"
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_800194BC);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019548);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019594);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_800196A8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019808);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019810);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001983C);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019868);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019BC4);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019BE4);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_80019BF4);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001A018);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001A038);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001A058);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001A098);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001B7B8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001B7C8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001B7D8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001B7F0);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BA9C);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BB6C);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BC48);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BCA0);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BCE4);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BE80);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BEC8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001BF20);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C07C);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C12C);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C244);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C260);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C2F8);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C310); // osSetTime
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C328);
+
+INCLUDE_ASM(s32, "CodeFile_1A0BC", func_8001C3FC);
