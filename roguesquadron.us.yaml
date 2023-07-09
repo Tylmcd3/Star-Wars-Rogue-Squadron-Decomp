@@ -35,14 +35,16 @@ segments:
     vram: 0x80000400
     subsegments:
       - [0x1000, 'asm', entry]
-  - name: files1
-    type: bin
-    start: 0x1040
-  - name: funcBlock1
-    type: code
-    start: 0x1720
-    vram: 0x80000b20
-    subsegments:
+      - [0x100C,  'asm', CodeFile_100C]
+      - [0x1040, 'asm', Data_1040]
+  # - name: files1
+  #   type: bin
+  #   start: 0x1040
+  # - name: funcBlock1
+  #   type: code
+  #   start: 0x1720
+  #   vram: 0x80000b20
+  #   subsegments:
       - [0x1720,  'asm', CodeFile_1720]
       - [0x7F78,  'asm', CodeFile_7F78]
       - [0x19DF0, 'asm', CodeFile_19DF0]
@@ -50,14 +52,14 @@ segments:
       - [0x1A000, 'asm', CodeFile_1A000]
       - [0x1A0BC, 'asm', CodeFile_1A0BC]
       - [0x1D0B8, 'asm', CodeFile_1D0B8]
-  - name: files2
-    type: bin
-    start: 0x2560C
-  - name: funcBlock2
-    type: code
-    start: 0x275B0
-    vram: 0x800269B0
-    subsegments:
+  # - name: files2
+  #   type: bin
+  #   start: 0x2560C
+  # - name: funcBlock2
+  #   type: code
+  #   start: 0x275B0
+  #   vram: 0x800269B0
+  #   subsegments:
       - [0x275B0, 'asm', 'CodeFile_275B0']
       - [0x27728, 'asm', 'CodeFile_27728']
       - [0x29D20, 'asm', 'CodeFile_29D20']
